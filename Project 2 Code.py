@@ -136,7 +136,7 @@ modelB.compile(optimizer=keras.optimizers.Adam(1e-3),
 print("\n=== Model A Summary ==="); modelA.summary()
 print("\n=== Model B Summary ==="); modelB.summary()
 
-# === Step 3: Hyperparameter Analysis (optional training harness) ============
+# === Step 3: Hyperparameter Analysis ============
 # Train variants of A and B with different activations/settings
 
 DO_TRAIN = True
